@@ -1,6 +1,7 @@
+//In JavaScript, a function allows you to define a block of code, give it a name and then execute it as many times as you want.
 
-//Declaração de função (Function hoisiting)
-
+//Function hoisiting
+//Hoisting is a JavaScript technique which moves variables and function declarations to the top of their scope before code execution begins. Within a scope no matter where functions or variables are declared, they're moved to the top of their scope
 falaOi(); //Posso executar a função antes de declarar ela, porque o motor do JavaScript eleva todas as funções para o topo
 function falaOi() {
     console.log('Oie');
@@ -28,10 +29,11 @@ const funcaoArrow = () => {
 };
 funcaoArrow();
 
-//Funcao d entro de um objeto
+//Funcao dentro de um objeto
 const obj = {
     falar: function () {
         console.log('Estou falando...');
     }
 };
 obj.falar();
+
