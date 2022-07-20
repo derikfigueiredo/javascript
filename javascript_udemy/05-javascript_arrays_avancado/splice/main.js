@@ -1,4 +1,6 @@
-/*********************************************** SPLICE ************************************************************** */
+/******************************************* SPLICE*************************************************** */
+
+//O método splice altera o conteúdo de uma lista, adicionando novos elementos enquanto remove os antigos.
 
 // array.splice(índice atual, quantos elementos quero tirar, elem1 para add, elem2 add, elemen...)
 
@@ -7,6 +9,8 @@ const nomes = ['Maria', 'João', 'Eduardo', 'Gabriel', 'Júlia'];
 //Sempre retorna um array
 const removidos = nomes.splice(4, 1);
 console.log(removidos);
+//Resultado: [ 'Júlia' ]
+
 
 //Selecionando mais de um elemento
 const removidos2 = nomes.splice(2, 2);
