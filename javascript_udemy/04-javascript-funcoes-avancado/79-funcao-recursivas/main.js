@@ -12,14 +12,14 @@ function recursiva(max) {
 recursiva(-10);
 
 //A recursive function always has a condition to stop calling itself. Otherwise, it will call itself indefinitely. So a recursive function typically looks like the following:
-function recurse() {
-    if(condition) {
-        // stop calling itself
-        //...
-    } else {
-        recurse();
-    }
-}
+// function recurse() {
+//     if(condition) {
+//         // stop calling itself
+//         //...
+//     } else {
+//         recurse();
+//     }
+// }
 
 
 //https://www.javascripttutorial.net/javascript-recursive-function/

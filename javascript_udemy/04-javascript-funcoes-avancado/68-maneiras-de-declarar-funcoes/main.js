@@ -36,4 +36,3 @@ const obj = {
     }
 };
 obj.falar();
-

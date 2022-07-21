@@ -43,7 +43,7 @@ let obj = {
 funcao4(obj);
 
 
-//utilizamos a sintaxe ...nome-da-variavel, chamado de rest operator ou parametro rest no último parmentro para receber o resto dos argumentos que não teve parament
+//utilizamos a sintaxe ...nome-da-variavel, chamado de rest operator ou parametro rest no último paramentro para receber o resto dos argumentos que não teve paramento
 //rest operador deve ser colocado como último paramentro
 const conta = function(operador, acumulador, ...numeros) {
     console.log(arguments); //A variável arguments tem todos os argumentos recebidos dentro da função
