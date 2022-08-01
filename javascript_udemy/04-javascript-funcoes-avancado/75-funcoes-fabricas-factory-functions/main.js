@@ -20,7 +20,7 @@ function criaPessoa(nome, sobrenome, a, p) {
 }
 
 const p1 = criaPessoa('Luiz', 'Otávio', 1.8, 80);
-console.assert.log(p1.nome);
+console.log(p1.nome);
 
 console.log(p1.fala('falando sobre JS'));
 */
