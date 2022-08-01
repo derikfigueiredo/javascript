@@ -22,6 +22,8 @@ function executaFuncao(funcao) {
     funcao()
 }
 executaFuncao(souUmDado)
+//OUTPUT: Vou executar sua função abaixo
+//Sou um dado
 
 //Arrow function
 const funcaoArrow = () => {
@@ -36,3 +38,4 @@ const obj = {
     }
 };
 obj.falar();
+//OUTPUT: Estou falando...
