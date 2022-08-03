@@ -21,7 +21,7 @@ console.log(umaString3);
 //OUTPUT: Um \String
 
 
-//SE DIGITAR UMA POSIÇÃO QUE SAI DO ÍNDICEM, É RETORNADO NADA
+//SE DIGITAR UMA POSIÇÃO QUE SAI DO ÍNDICE, É RETORNADO NADA
 console.log(umaString3.charAt(10));
 //OUTPUT: 
 
