@@ -9,6 +9,7 @@ function falaOi() {
 
 /********************************************************** */
 // First-class objects (Objetos de primeira classe) = podemos tratar uma função como um dado
+// First-class objects can be stored in variables, objects or array. They can be passed as argumento to a function e returned from a function
 //Function expression = A variável receber uma função e se tornar uma função
 const souUmDado = function () {
 console.log('sou um dado')

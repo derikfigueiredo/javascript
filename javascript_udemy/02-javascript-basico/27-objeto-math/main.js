@@ -24,3 +24,14 @@ console.log(Math.max(1, 2, 3, 4, 5, -10, -50, 1500, 9, 8, 7, 6))
 
 
 console.log(Math.random() * (10 - 5) + 5); //Exibir numero aleatorio entre 10 e 5 (maximo - minuno)
+
+
+
+
+console.log(Math.pow(2, 10)); //DOIS ELEVADO A 10
+//OU 
+console.log(2 ** 10);
+//OUTPUT: 1024
+//1024
+
+
