@@ -1,0 +1,1 @@
+// https://blog.cod3r.com.br/entenda-operadores-javascript-na-pratica/
